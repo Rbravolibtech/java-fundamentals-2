@@ -262,6 +262,7 @@ const jonas = {
 */
 
 /*======== DOT VS BRACKET NOTATION ========== */
+/*
 const jonas = {
 	firstName: "Jonas",
 	lastName: "Bravo",
@@ -300,5 +301,44 @@ console.log(jonas);
 console.log(
 	`${jonas.firstName} has ${jonas.friends.length}, friend, and his best friend is called ${jonas.friends[0]}`,
 );
+*/
+/*======== OBJECT METHODS ========== */
+/*
+const jonas = {
+	firstName: "Jonas",
+	lastName: "Bravo",
+	age: 2037 - 1991,
+	job: "teacher",
+	friends: ["Michael", "Peter", "Steven"],
+	hasDriversLicense: true,
 
-/*======== DOT VS BRACKET NOTATION ========== */
+	//calcAge: function (birthYeah) {
+	//return 2037 - birthYeah;
+	//},
+	//};
+
+	calcAge: function () {
+		console.log(this);
+		return 2037 - this.birthYeah;
+	},
+	getSummery: function () {
+		return `${this.firstName} is a ${this.calcAge()} year old ${
+			jonas.job
+		}, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+	},
+};
+
+console.log(jonas.calcAge());
+
+console.log(jonas.age);
+console.log(jonas.age);
+console.log(jonas.age);
+//console.log(jonas["calcAge"](1991));
+
+// challenge
+// Jonas is a 46-year old teacher, and he has a drivers license
+
+console.log(jonas.getSummery());
+*/
+
+/*======== OBJECT METHODS ========== */
