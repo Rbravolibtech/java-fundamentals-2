@@ -128,7 +128,7 @@ TEST DATA 1: Dolphins scored 44, 23, and 71. Koalas scored 65, 54, and 49.
 
 TEST DATA 2: Dolphins scored 85, 54, and 41. Koalas scored 23, 34, and 27.
 */
-
+/*
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 console.log(calcAverage(3, 4, 5));
 
@@ -147,3 +147,47 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 };
 
 checkWinner(scoreDolphins, scoreKoalas);
+*/
+/*======== INTRODUCTION TO ARRAYS ========== */
+/*
+const friend1 = "Michael";
+const friend2 = "Steven";
+const friend3 = "Peter";
+
+const friends = ["Michael", "Steven", "Peter"];
+console.log(friends);
+
+const why = new Array(1991, 1989, 1990, 1998);
+
+console.log(friends[0]);
+console.log(friends[1]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Jay";
+console.log(friends);
+
+const firstName = "Jonas";
+const jonas = [firstName, "Bravo", 2037 - 1991, "teacher", friends];
+console.log(jonas);
+
+//Exercise
+const calcAge = function (birthYeah) {
+	return 2037 - birthYeah;
+};
+
+const years = [1990, 1991, 1989, 1998, 2000];
+
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+const ages = [calcAge(years[0]), calcAge(years[1])];
+calcAge(years[years.length - 1]);
+console.log(ages);
+*/
+
+/*======== BASIC ARRAY OPERATIONS (METHODS)========== */
