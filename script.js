@@ -405,6 +405,36 @@ if (mark.bmi > john.bmi) {
 // console.log("Lifting weights repetition 9");
 
 // for loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 9; rep++) {
-	console.log(`Lifting weights repetition ${rep}`);
+//for (let rep = 1; rep <= 9; rep++) {
+//console.log(`Lifting weights repetition ${rep}`);
+//}
+
+/*======== LOOPING ARRAYS, BREAKING AND CONTINUING ========== */
+/*
+const jonas = [
+	"Jonas",
+	"Bravo",
+	2037 - 1991,
+	"teacher",
+	["Michael", "peter", "Steven"],
+];
+const types = [];
+
+for (let i = 0; i < jonas.length; i++) {
+	console.log(jonas[i], typeof jonas[i]);
+	//filling types array
+	//types[i] = typeof jonas[i];
+	types.push(typeof jonas[i]);
 }
+
+console.log(types);
+
+const years = [1991, 1994, 1989, 1998];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+	ages.push(2037 - years[i]);
+}
+console.log(ages);
+*/
+/*======== LOOPING ARRAYS, BREAKING AND CONTINUING ========== */
